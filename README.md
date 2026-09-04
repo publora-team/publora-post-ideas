@@ -33,8 +33,8 @@ writes from that.
 Copy the folder into your skills directory:
 
 ```bash
-git clone https://github.com/publora-team/publora-post-ideas.git \
-  ~/.claude/skills/publora-post-ideas
+git clone https://github.com/publora-team/publora-post-ideas.git /tmp/ppi
+cp -r /tmp/ppi/skills/publora-post-ideas ~/.claude/skills/
 ```
 
 Or install it as a plugin:
