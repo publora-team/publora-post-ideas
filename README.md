@@ -53,6 +53,15 @@ deliberate step.
 - `skills/publora-post-ideas/references/angles.md`: the angle library across
   eight categories: Story, Behind the scenes, Tip, Case study, List, How-to,
   Opinion, Question. Each entry names the specific fact that has to come from you.
+- `references/hooks.md`: what the first two lines have to do before the feed
+  collapses the rest, and the openings that reliably fail.
+- `references/voice.md`: how to read a voice off someone's existing posts rather
+  than asking them to describe it, and what must never be carried over from a
+  source article.
+- `references/machine-tells.md`: the patterns that give a draft away after every
+  automated check has passed.
+- `references/platforms.md`: how one angle changes shape across LinkedIn, X,
+  Threads, Bluesky, Telegram and the networks that need media first.
 
 ## Install
 

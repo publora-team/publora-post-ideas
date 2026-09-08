@@ -160,20 +160,21 @@ Write in the user's voice and keep it short. A post that says one thing well
 beats a post that says three things adequately, and the second draft is almost
 always the shorter one.
 
+Two references carry the craft here. `references/voice.md` is how to read a voice
+off the user's own posts instead of asking them to describe it, and what must
+never be carried over from a source article. `references/hooks.md` is the
+opening: what the first two lines have to do, and the openings that reliably
+fail.
+
 ### 5. Check the text before showing it
 
-Run the `anti-slop` skill. Then read it again yourself, because the script
-checks vocabulary and structure and misses everything below:
+Run the `anti-slop` skill if it is available. Then read the draft against
+`references/machine-tells.md` yourself, because a script checks vocabulary and
+structure and misses the patterns that actually give a draft away: the polished
+paradox, the rule of three carried by rhythm, uniform sentence length, withheld
+information used as a hook, and lines already used elsewhere this week.
 
-- **Withheld information as a hook** — "with a Beta tag, which I'll get to".
-  Say the thing where it belongs.
-- **The polished paradox** — "you have to prove it's used before it's allowed to
-  exist". Elegant, symmetrical, and the reason a paragraph sounds written rather
-  than said.
-- **A list of three where two would do**, with the third carried by rhythm.
-- **Empty intensifiers** — *literally, genuinely, actually, simply*.
-- **Jargon aimed at the wrong room** — "so the rest of your stack can react".
-- **Lines already used this week**, in another post or in the source article.
+Then read it out loud. Anything you would not say to a person gets rewritten.
 
 ### 6. Hand off
 
@@ -187,19 +188,13 @@ Nothing in this skill publishes anything either way.
 ## One angle, several networks
 
 The angle stays the same; the shape does not. Once an angle is picked, ask which
-networks — or read what `list_connections` returns — and expand accordingly.
-
-| Network | What the angle becomes |
-|---|---|
-| LinkedIn | The full arc: situation, turn, what changed. Three to eight short paragraphs, up to 3000 characters. |
-| X | The sharpest single line of the angle, under 280. The rest becomes replies, not a longer post. |
-| Threads, Mastodon | Conversational and unfinished, under 500. Ends open rather than concluding. |
-| Facebook, Telegram | LinkedIn's arc without the professional register. |
-| Bluesky | Like X, with more room to be strange. |
-| Instagram, TikTok, YouTube | The angle is the *caption*, and these will not publish without media. Say what the image or clip has to show before drafting a word. |
+networks — or read what `list_connections` returns — and shape the draft per
+network using `references/platforms.md`, which covers the limits, the arc each
+feed rewards, and the networks that will not publish without media.
 
 A post aimed at several networks is not one text pasted five times. Offer
-per-network versions, or pick the one network the angle actually suits.
+per-network versions, or pick the one network the angle actually suits and say
+so.
 
 ## Rotation
 
