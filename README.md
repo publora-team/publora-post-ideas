@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/Claude_Code-compatible-D97757?logo=anthropic&logoColor=white" alt="Claude Code compatible">
   <img src="https://img.shields.io/badge/Codex-compatible-111827" alt="Codex compatible">
   <img src="https://img.shields.io/badge/Agent-Skill-8A63D2" alt="Agent Skill">
+  <img src="https://img.shields.io/badge/install-npx%20skills-000000?logo=vercel&logoColor=white" alt="npx skills add">
   <img src="https://img.shields.io/badge/License-MIT-22C55E.svg" alt="MIT License">
   <img src="https://img.shields.io/github/stars/publora-team/publora-post-ideas?style=social" alt="GitHub stars">
 </p>
@@ -65,7 +66,20 @@ deliberate step.
 
 ## Install
 
-Clone once, then copy the skill folder into whichever agent you use:
+One command, whichever agent you use:
+
+```bash
+npx skills add publora-team/publora-post-ideas
+```
+
+That's the [skills CLI](https://github.com/vercel-labs/skills). It detects your
+agent and puts the skill where that agent looks for it, so it covers Claude
+Code, Codex, Cursor and Copilot without you choosing a path. Add `--global` to
+install for every project instead of the current one.
+
+### By hand
+
+If you'd rather not run someone else's installer, clone it and copy the folder:
 
 ```bash
 git clone https://github.com/publora-team/publora-post-ideas.git /tmp/ppi
