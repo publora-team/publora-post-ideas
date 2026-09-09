@@ -247,4 +247,9 @@ later is part of the value.
 Go back to something you posted weeks ago that promised more and never got it:
 the launch with no follow-up, the experiment with no result, the part two.
 The audience is already primed and the material already exists.
-**Core:** which earlier post, and how it actually turned out.
+Only offer this when the earlier post contains a forward promise in its own
+words, and quote that promise when you offer it. A story that merely looks
+unfinished from outside is not a thread, and the post may not have been public
+at all.
+**Core:** which earlier post, whether it was really an announcement, and how it
+actually turned out.

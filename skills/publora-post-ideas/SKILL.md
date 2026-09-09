@@ -91,11 +91,26 @@ Treat as noise: anything a few words long, near-duplicates published minutes
 apart, and anything carrying words like *test, validation, draft, проверка*.
 A post that exists only to prove a pipeline works promised the audience nothing.
 
-**Never state an inference from the history as a fact.** "You promised X a month
-ago and never followed up" is a claim about what the user did in public, built
-on a list that contains their own test runs. Say what you saw and ask whether
-you read it right. Getting this wrong sends the whole session down a story that
-never happened.
+**The text is real. The promise is not.** When a post looks like an unkept
+commitment, nothing was hallucinated at the level of words — those really are the
+user's sentences. What gets invented is the *speech act*: that the sentences were
+an announcement to an audience rather than a test run, a note to a colleague, or
+a sentence that never meant what it now looks like it meant.
+
+So a hanging thread is not something you infer. It has to be shown, and it takes
+two things:
+
+1. **Commitment language in the post's own text.** "Coming soon", "we'll share",
+   "more on this next week", "part one". If the post contains no forward promise,
+   there is no thread to finish, however incomplete the story looks from outside.
+2. **Quoting the exact words back.** Not "you promised the integration a month
+   ago" but: *this post says "Publora is coming to Zapier" — was that an
+   announcement, or a test run?* Quoting forces you to point at evidence instead
+   of summarising an intention, and it lets the user refute it in one word.
+
+Never state an inference from the history as a fact. A claim about what someone
+did in public, built on a list that contains their own QA runs, sends the whole
+session down a story that never happened.
 
 If `list_posts` is empty or unavailable, carry on without it and say you are
 working blind. Do not invent a posting history.
@@ -111,8 +126,8 @@ a verdict.
 
 > **1. 🩹 The lesson from a specific mistake** — six wins in a row in your feed,
 > nothing that cost you anything.
-> **2. 🧵 Finish the thread** — the integration post from July looks like it
-> promised a follow-up. Did it, or was that a test run?
+> **2. 🧵 Finish the thread** — a post from July says "Publora is coming to
+> Zapier". Was that an announcement, or a test run?
 > **3. 🔪 The take you keep to yourself** — nothing you have posted this month
 > has an edge on it.
 
@@ -208,7 +223,8 @@ however well it fits.
 - Invent the personal detail an angle asks for, or fill a gap in the user's
   answer with a plausible-sounding one.
 - Treat a test run in `list_posts` as something the audience saw.
-- Assert what a past post promised. Ask.
+- Assert what a past post promised. Quote its words and ask.
+- Offer a hanging thread when the post carries no forward commitment of its own.
 - Reuse sentences from the article the post is built on.
 - Put two links in one post.
 - Offer an angle whose subject already appears in the last ten real posts.
